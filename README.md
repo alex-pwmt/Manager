@@ -2,7 +2,9 @@
 
 The manager-io-translator.py is a localization tool for Manager.io accounting software. It translates from Translations.json and/or Strings.json files using deep_translator and saves the translated strings to an appropriate JSON file.
 
-Inputs: - The manager-io-translator takes command-line arguments as inputs, including a source language code, a target language code, and file paths for the source and target JSON files. - Other inputs include constants and variables defined within the app, such as the maximum number of threads, batch size, and maximum number of translation attempts.
+Inputs:
+
+The manager-io-translator takes command-line arguments as inputs, including a source language code, a target language code, and file paths for the source and target JSON files. Other inputs include constants and variables defined within the app, such as the maximum number of threads, batch size, and maximum number of translation attempts.
 
 Flow:
 
@@ -20,7 +22,9 @@ Outputs:
 
 ## CLA
 
-Usage: python -m manager-io-translator [-from | -fromfile | -to | -tofile | -save-branch | -save-source] arguments ...
+Usage:
+
+    python -m manager-io-translator [-from | -fromfile | -to | -tofile | -save-branch | -save-source] arguments ...
 
     -from language code -- source language code of two symbol e.g.(sl | de).
     -fromfile file name -- source file name with path (default Translations.json).
@@ -32,6 +36,6 @@ Usage: python -m manager-io-translator [-from | -fromfile | -to | -tofile | -sav
 
 ### Examples
 
-manager-io-translator.py -from sl -to pl -fromfile Translations.json -save-strings -save-source
+    manager-io-translator.py -from sl -to pl -fromfile Translations.json -save-strings -save-source
 
-    translate strings from Translations.json from "sl" to "pl" language, save results to Translations.json for "pl" language, Translations_pl.json, and Strings_pl.json.
+translate strings from Translations.json from "sl" to "pl" language, save results to Translations.json for "pl" language, Translations_pl.json, and Strings_pl.json.
