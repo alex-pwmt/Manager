@@ -1,5 +1,5 @@
 # author Oleksander Kechedzhy
-# version b1.0
+# version 1.0b
 #
 import json
 import os
