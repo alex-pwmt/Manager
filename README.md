@@ -20,7 +20,7 @@ Outputs:
 
 ## CLA
 
-Usage: python -m translate_json [-from | -fromfile | -to | -tofile | -save-branch | -save-source] arguments ...
+Usage: python -m manager-io-translator [-from | -fromfile | -to | -tofile | -save-branch | -save-source] arguments ...
 
     -from language code -- source language code of two symbol e.g.(sl | de).
     -fromfile file name -- source file name with path (default Translations.json).
