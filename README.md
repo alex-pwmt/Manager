@@ -1,6 +1,6 @@
 # manager-io-translator.py
 
-The manager-io-translator.py is a localization tool for Manager.io accounting software. It translates from Translations.json and/or Strings.json files using deep_translator and saves the translated strings to an appropriate JSON file.
+The manager-io-translator.py is a localization tool for Manager.io accounting software. It translates strings from Translations.json or Strings.json files using deep_translator Python library and saves the translated strings to an appropriate JSON file.
 
 Inputs:
 
